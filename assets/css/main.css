@@ -3974,7 +3974,10 @@ input, select, textarea {
 		}
 
 		html {
-			scroll-behavior: smooth;
+			scroll-behavior: smooth !important;
+			-moz-scroll-behavior: smooth !important;
+			-webkit-scroll-behavior: none !important;
+			-ms-scroll-behavior: smooth !important;
 		}
 		a.image {
 			pointer-events: none;
